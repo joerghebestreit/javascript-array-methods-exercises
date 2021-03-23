@@ -43,4 +43,17 @@ const tvShows = [
   },
 ];
 
-// Your code below
+const titles = tvShows.map((show) => {
+  return tvShows.title
+})
+
+console.log(titles)
+
+let titleRating = tvShows.map((show) => {
+  return {
+    title: show.title, rating: show.rating
+  }
+})
+
+console.log(titleRating)
+
